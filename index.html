@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
 
-       
+
 
 <nav class="navbar">
     <div class="container">
@@ -53,14 +55,14 @@
 <script>
 
     function generateQuestions(data) {
-        
+
         for (var i = 0; i < data[0].length; i++) {
-        
+
         console.log(data[0][i]);
 
         let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
 
-        let issue = `        
+        let issue = `
             Aktualna treść pytania: ${data[0][i].pytanie}
             Odpowiedzi: ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}, 
 
@@ -85,15 +87,16 @@
 
     }
 
-    Promise.all([
-        d3.csv("pytania.csv"),
-        ]).then(function(data) {
+        Promise.all([
+            d3.csv("dzial1.csv"),
+        ]).then(function (data) {
             generateQuestions(data)
         });
 
-    
-    
+
+
                     </script>
 
 </body>
+
 </html>
