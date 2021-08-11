@@ -15,54 +15,52 @@
 
 
 
-<nav class="navbar">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="../">
-                Pytania egzaminacyjne na świadectwo klasy A
-            </a>
-            <span class="navbar-burger burger" data-target="navbarMenu">
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    Pytania egzaminacyjne na świadectwo klasy A
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
                     <span></span>
-            <span></span>
-            <span></span>
-            </span>
-        </div>
-        <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-                <a class="navbar-item is-active" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne">
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item is-active" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne">
                         Repozytorium z pytaniami
                     </a>
 
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<section class="hero is-info is-medium is-bold">
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title">Proponowane zaktualizowane pytania egzaminacyjne do egzaminu na świadectwo operatora urządzeń radiowych w służbie radiokomunikacyjnej amatorskiej</h1>
+    <section class="hero is-info is-medium is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Proponowane zaktualizowane pytania egzaminacyjne do egzaminu na świadectwo operatora
+                    urządzeń radiowych w służbie radiokomunikacyjnej amatorskiej</h1>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="container">
-            <div class="box content" id="questions"></div>
-</section>
-
+    <section class="container">
+        <div class="box content" id="questions"></div>
+    </section>
 
 
-<script>
 
-    function generateQuestions(data) {
+    <script>
+        function generateQuestions(data) {
 
-        for (var i = 0; i < data[0].length; i++) {
+            for (var i = 0; i < data[0].length; i++) {
 
-        console.log(data[0][i]);
+                let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
 
-        let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
-
-        let issue = `
+                let issue = `        
             Aktualna treść pytania: ${data[0][i].pytanie}
             Odpowiedzi: ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}, 
 
@@ -72,30 +70,30 @@
 
         `
 
-        console.log(issue);
+                let entry = '<h4>' + data[0][i].pytanie + '</h4><div class="media"><div class="media-content"><div class="content">';
+                if (data[0][i].ilustracja != '') {
+                    entry += '<p class="image"><img src="ilustracje/' + data[0][i]
+                        .ilustracja + '"></p>'
+                }
+                entry += '<ol type="a"><li>' + data[0][i].odpa +
+                    '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol>'
+                entry +=
+                    '<a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' +
+                    encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +
+                    '">Zgłoś sugestię przez githuba</a><hr></div></div></div>'
 
-        let entry = '<h4>' + data[0][i].pytanie + '</h4><div class="media">';
-            if (data[0][i].ilustracja != '') {
-                entry += '<figure class="media-left"><p class="image"><img src="ilustracje/' + data[0][i].ilustracja +'"></p></figure>'
-            }
-            entry += '<div class="media-content"><div class="content"><ol type="a"><li>' + data[0][i].odpa + '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol><hr></div></div>'
-            entry += '<div class="media-right"><div class="buttons"><form><a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +'">Zgłoś sugestię przez githuba</a></form></div></div></div>'
+                d3.select("#questions").insert("article").attr("class", "post").html(entry);
 
-        d3.select("#questions").insert("article").attr("class","post").html(entry);
+            };
 
-    };
-
-    }
+        }
 
         Promise.all([
-            d3.csv("dzial1.csv"),
+            d3.csv("pytania.csv"),
         ]).then(function (data) {
             generateQuestions(data)
         });
-
-
-
-                    </script>
+    </script>
 
 </body>
 
