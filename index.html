@@ -58,10 +58,9 @@
         
         console.log(data[0][i]);
 
+        let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
 
         let issue = `        
-            ### Sugestia dotycząca pytania nr ${data[0][i].id} ###
-
             Aktualna treść pytania: ${data[0][i].pytanie}
             Odpowiedzi: ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}, 
 
@@ -78,7 +77,7 @@
                 entry += '<figure class="media-left"><p class="image"><img src="ilustracje/' + data[0][i].ilustracja +'"></p></figure>'
             }
             entry += '<div class="media-content"><div class="content"><ol type="a"><li>' + data[0][i].odpa + '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol><hr></div></div>'
-            entry += '<div class="media-right"><div class="buttons"><form><a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?body=' + encodeURIComponent(issue) +'">Zgłoś sugestię przez githuba</a></form></div></div></div>'
+            entry += '<div class="media-right"><div class="buttons"><form><a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +'">Zgłoś sugestię przez githuba</a></form></div></div></div>'
 
         d3.select("#questions").insert("article").attr("class","post").html(entry);
 
