@@ -27,7 +27,7 @@
         </div>
         <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item is-active">
+                <a class="navbar-item is-active" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne">
                         Repozytorium z pytaniami
                     </a>
 
@@ -78,7 +78,7 @@
                 entry += '<figure class="media-left"><p class="image"><img src="ilustracje/' + data[0][i].ilustracja +'"></p></figure>'
             }
             entry += '<div class="media-content"><div class="content"><ol type="a"><li>' + data[0][i].odpa + '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol><hr></div></div>'
-            entry += '<div class="media-right"><div class="buttons"><form><a class="button is-primary is-light" href="https://github.com/sindresorhus/new-github-issue-url/issues/new?body=' + encodeURIComponent(issue) +'">Zgłoś sugestię przez githuba</a></form></div></div></div>'
+            entry += '<div class="media-right"><div class="buttons"><form><a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?body=' + encodeURIComponent(issue) +'">Zgłoś sugestię przez githuba</a></form></div></div></div>'
 
         d3.select("#questions").insert("article").attr("class","post").html(entry);
 
