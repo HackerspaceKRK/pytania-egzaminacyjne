@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pytania egzaminacyjne na świadectwo klasy A</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+       
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../">
+                Pytania egzaminacyjne na świadectwo klasy A
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+            <span></span>
+            <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item is-active">
+                        Repozytorium z pytaniami
+                    </a>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="hero is-info is-medium is-bold">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">Proponowane zaktualizowane pytania egzaminacyjne do egzaminu na świadectwo operatora urządzeń radiowych w służbie radiokomunikacyjnej amatorskiej</h1>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+            <div class="box content" id="questions"></div>
+</section>
+
+
+
+<script>
+
+    function generateQuestions(data) {
+        
+        for (var i = 0; i < data[0].length; i++) {
+        
+        console.log(data[0][i]);
+
+
+        let issue = `        
+            ### Sugestia dotycząca pytania nr 1 ###
+
+            Aktualna treść pytania: ${data[0][i].pytanie}
+            Odpowiedzi: ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}, 
+
+            ---
+
+            Treść uwagi: 
+
+        `
+
+        console.log(issue);
+
+        let entry = '<h4>' + data[0][i].pytanie + '</h4><div class="media">';
+            if (data[0][i].ilustracja != '') {
+                entry += '<figure class="media-left"><p class="image"><img src="ilustracje/' + data[0][i].ilustracja +'"></p></figure>'
+            }
+            entry += '<div class="media-content"><div class="content"><ol type="a"><li>' + data[0][i].odpa + '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol><hr></div></div>'
+            entry += '<div class="media-right"><div class="buttons"><form><a class="button is-primary is-light" href="https://github.com/sindresorhus/new-github-issue-url/issues/new?body=' + encodeURIComponent(issue) +'">Zgłoś sugestię przez githuba</a></form></div></div></div>'
+
+        d3.select("#questions").insert("article").attr("class","post").html(entry);
+
+    };
+
+    }
+
+    Promise.all([
+        d3.csv("pytania.csv"),
+        ]).then(function(data) {
+            generateQuestions(data)
+        });
+
+    
+    
+                    </script>
+
+</body>
+</html>
