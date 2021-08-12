@@ -7,9 +7,9 @@ W przypadku pytań na kategorię A:
 
 Zbiór pytań na kategorię C jest podzbiorem pytań na kategorię A. 
 
-Pyania najwygodniej przeglądać poprzez stronę pod adresem: https://hackerspacekrk.github.io/pytania-egzaminacyjne/
+Pytania najwygodniej przeglądać poprzez stronę pod adresem: https://hackerspacekrk.github.io/pytania-egzaminacyjne/
 
-Konstruktywne i merytoryczne uwagi można zgłaszacć poprzez githubowe issues, pull request lub ewentualnie mailem na radio@hackerspace-krk.pl.
+Konstruktywne i merytoryczne uwagi można zgłaszać poprzez githubowe issues, pull request lub ewentualnie mailem na radio@hackerspace-krk.pl.
 
 # Autorzy opracowana na kanwie istniejącej bazy pytań:
 - Szymon Reiter - SQ9ZAQ
