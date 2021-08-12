@@ -17,7 +17,7 @@ Treść uwagi:
 `
 
         let questionData = data[0][i]
-        let entry = '<h4>' + questionData.id + ". " + questionData.pytanie + '</h4><div class="media"><div class="media-content"><div class="content"><a id="pytanie-' + questionData.id +'"></a>';
+        let entry = '<a id="pytanie-' + questionData.id +'"><h4>' + questionData.id + ". " + questionData.pytanie + '</h4></a><div class="media"><div class="media-content"><div class="content">';
         if (questionData.ilustracja != '') {
             entry += '<p class="image"><img class="ilustration" src="../ilustracje/' + questionData
                 .ilustracja + '"></p>'
