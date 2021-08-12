@@ -1,4 +1,4 @@
-W lipcu bieżącego roku do Urzędu Komunikacji Elektronicznej została przekazana propozycja nowej bazy pytań egzaminacyjnych. 
+W lipcu bieżącego roku z inicjatywy Jurka HF1D, do Urzędu Komunikacji Elektronicznej została przekazana propozycja nowej bazy pytań egzaminacyjnych. 
 W przypadku pytań na kategorię A:
 - 227 pytań nie wymagało żadnych zmian,
 - 80 pytań zostało przeredagowanych,
