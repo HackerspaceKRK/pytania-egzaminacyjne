@@ -13,19 +13,21 @@ function generateQuestions(data, category, module) {
 
 Treść uwagi: 
 
+
 `
 
-        let entry = '<h4>' + data[0][i].id + ". " + data[0][i].pytanie + '</h4><div class="media"><div class="media-content"><div class="content">';
-        if (data[0][i].ilustracja != '') {
-            entry += '<p class="image"><img class="ilustration" src="../ilustracje/' + data[0][i]
+        let questionData = data[0][i]
+        let entry = '<h4>' + questionData.id + ". " + questionData.pytanie + '</h4><div class="media"><div class="media-content"><div class="content"><a id="pytanie-' + questionData.id +'"></a>';
+        if (questionData.ilustracja != '') {
+            entry += '<p class="image"><img class="ilustration" src="../ilustracje/' + questionData
                 .ilustracja + '"></p>'
         }
-        entry += '<ol type="a"><li>' + data[0][i].odpa +
-            '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol>'
+        entry += '<ol type="a"><li>' + questionData.odpa +
+            '</li><li>' + questionData.odpb + '</li><li>' + questionData.odpc + '</li></ol>'
         entry +=
             '<a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' +
             encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +
-            '">Zgłoś sugestię</a><hr></div></div></div>'
+            '">Zgłoś sugestię</a> <a class="button is-light" href="#pytanie-'+ questionData.id + '">Link do pytania</a><hr></div></div></div>'
 
         d3.select("#questions").insert("article").attr("class", "post").html(entry);
 
