@@ -1,4 +1,5 @@
-W lipcu bieżącego roku z inicjatywy Jurka HF1D, do Urzędu Komunikacji Elektronicznej została przekazana propozycja nowej bazy pytań egzaminacyjnych. 
+W lipcu bieżącego roku z inicjatywy Jurka HF1D, do Urzędu Komunikacji Elektronicznej została przekazana propozycja nowej bazy pytań egzaminacyjnych stworzonych na kanwie bazy pytań do tej pory używanych. 
+
 W przypadku pytań na kategorię A:
 - 227 pytań nie wymagało żadnych zmian,
 - 80 pytań zostało przeredagowanych,
@@ -11,7 +12,7 @@ Pytania najwygodniej przeglądać poprzez stronę pod adresem: https://hackerspa
 
 Konstruktywne i merytoryczne uwagi można zgłaszać poprzez githubowe issues, pull request lub ewentualnie mailem na radio@hackerspace-krk.pl.
 
-# Autorzy opracowana na kanwie istniejącej bazy pytań:
+# Zespół:
 - Szymon Reiter - SQ9ZAQ
 - Przemysław Sadowski - SQ9NJE
 - Radosław Froń - SQ8LHI
