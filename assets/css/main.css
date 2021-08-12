@@ -10,3 +10,13 @@ html,body {
     font-size: 1.11rem;
     font-weight: bold;
   }
+
+.ilustration {
+    width:100% !important;
+}
+
+  @media (min-width:769px) {
+      .ilustration {
+          width:50% !important;
+      }
+  }

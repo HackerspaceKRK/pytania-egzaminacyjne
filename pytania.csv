@@ -1,3 +1,3 @@
-id,pytanie,ilustracja,odpa,odpb,odpc
-1,"Testowe pytanie numer jeden",,odpowiedz a,odpowiedz b,odpowiedz c
-2,"Testowe pytanie numer dwa",,a,b,c
+id,pytanie,odpa,odpb,odpc
+1,"Testowe pytanie numer jeden",odpowiedz a,odpowiedz b,odpowiedz c
+2,"Testowe pytanie numer dwa",a,b,c

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pytania egzaminacyjne</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="../assets/js/gen.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+
+
+<section class="hero is-info is-medium is-bold">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">Kategoria A - dział 2 - BHP</h1>
+
+        </div>
+    </div>
+</section>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../index.html">
+                Pytania egzaminacyjne
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item is-active" href="../index.html">
+                    Strona główna
+                </a>
+                <a class="navbar-item is-active" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne">
+                    Repozytorium z pytaniami
+                </a>
+                                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Kategoria A
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="1.html">
+                            Dział 1 - Radiotechnika
+                        </a>
+                        <a class="navbar-item" href="2.html">
+                            Dział 2 - BHP
+                        </a>
+                        <a class="navbar-item" href="3.html">
+                            Dział 3 - Procedury i zwyczaje operatorskie
+                        </a>
+                        <a class="navbar-item" href="4.html">
+                            Dział 4 - Przepisy dotyczące radiokomunikacyjnej służby amatorskiej
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Kategoria C
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="../kat_c/1.html">
+                            Dział 1 - Radiotechnika
+                        </a>
+                        <a class="navbar-item" href="../kat_c/2.html">
+                            Dział 2 - BHP
+                        </a>
+                        <a class="navbar-item" href="../kat_c/3.html">
+                            Dział 3 - Procedury i zwyczaje operatorskie
+                        </a>
+                        <a class="navbar-item" href="../kat_c/4.html">
+                            Dział 4 - Przepisy dotyczące radiokomunikacyjnej służby amatorskiej
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<section class="container">
+    <div class="box content" id="questions"></div>
+</section>
+
+<script>
+    Promise.all([
+        d3.csv("dzial2a.csv"),
+    ]).then(function (data) {
+        generateQuestions(data, "A", "2")
+    });
+</script>
+
+        <script async type="text/javascript" src="../assets/js/bulma.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
+        });
+        </script></body>
+
+</html>

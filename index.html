@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pytania egzaminacyjne na świadectwo klasy A</title>
+    <title>Pytania egzaminacyjne</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="assets/js/gen.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -14,87 +15,183 @@
 <body>
 
 
+<section class="hero is-info is-medium is-bold">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">Proponowane zaktualizowane pytania egzaminacyjne do egzaminu na świadectwo operatora
+                urządzeń radiowych w służbie radiokomunikacyjnej amatorskiej</h1>
 
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="../">
-                    Pytania egzaminacyjne na świadectwo klasy A
-                </a>
-                <span class="navbar-burger burger" data-target="navbarMenu">
+        </div>
+    </div>
+</section>
+
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                Pytania egzaminacyjne
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </span>
-            </div>
-            <div id="navbarMenu" class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item is-active" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne">
-                        Repozytorium z pytaniami
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item is-active" href="index.html">
+                    Strona główna
+                </a>
+                <a class="navbar-item is-active" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne">
+                    Repozytorium z pytaniami
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Kategoria A
                     </a>
-
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="kat_a/1.html">
+                            Dział 1 - Radiotechnika
+                        </a>
+                        <a class="navbar-item" href="kat_a/2.html">
+                            Dział 2 - BHP
+                        </a>
+                        <a class="navbar-item" href="kat_a/3.html">
+                            Dział 3 - Procedury i zwyczaje operatorskie
+                        </a>
+                        <a class="navbar-item" href="kat_a/4.html">
+                            Dział 4 - Przepisy dotyczące radiokomunikacyjnej służby amatorskiej
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Kategoria C
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="kat_c/1.html">
+                            Dział 1 - Radiotechnika
+                        </a>
+                        <a class="navbar-item" href="kat_c/2.html">
+                            Dział 2 - BHP
+                        </a>
+                        <a class="navbar-item" href="kat_c/3.html">
+                            Dział 3 - Procedury i zwyczaje operatorskie
+                        </a>
+                        <a class="navbar-item" href="kat_c/4.html">
+                            Dział 4 - Przepisy dotyczące radiokomunikacyjnej służby amatorskiej
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <section class="hero is-info is-medium is-bold">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title">Proponowane zaktualizowane pytania egzaminacyjne do egzaminu na świadectwo operatora
-                    urządzeń radiowych w służbie radiokomunikacyjnej amatorskiej</h1>
+<div class="container is-hidden-desktop">
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="column is-8 is-offset-2">
+            <!-- START ARTICLE -->
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <p class="title article-title">Kategorie</p>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+                        <div class="field is-grouped">
+                        <p class="control">
+                            <a href="kat_a/index.html" class="button">Kategoria A</a>
+                        </p>
+                        <p class="control">
+                            <a href="kat_c/index.html" class="button">Kategoria C</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- END ARTICLE -->
         </div>
+
     </section>
+</div>
 
-    <section class="container">
-        <div class="box content" id="questions"></div>
+<div class="container">
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+        <div class="column is-8 is-offset-2">
+            <!-- START ARTICLE -->
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <p class="title article-title">Autorzy</p>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+<h2>Autorzy opracowana na kanwie istniejącej bazy pytań:</h2>
+                        <ul>
+                            <li>Szymon Reiter - SQ9ZAQ</li>
+                            <li>Przemysław Sadowski - SQ9NJE</li>
+                            <li>Radosław Froń - SQ8LHI</li>
+                            <li>Tomasz Pabich - SP7Q</li>
+                            <li>Marcin Marciniak - SP5XMI</li>
+                            <li>Wojciech Bielak - SQ9PBS</li>
+                            <li>Piotr Wilkoń - SQ8L</li>
+                            <li>Paweł Hadam - SQ8F</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+            <!-- START ARTICLE -->
+            <div class="card article">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <p class="title article-title">Jak pomóc w rozwijaniu pytań egzaminacyjnych?</p>
+                            <div class="tags has-addons level-item">
+                                <span class="tag is-rounded is-info">SQ9WTF</span>
+                                <span class="tag is-rounded">12 sierpnia 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content article-body">
+                        <h2>Zgłaszając nam sugestię przez github.com</h2>
+                        <p>Po wejściu w odpowiednią kategorię i dział, korzystając z linku w górnym menu strony, przy każdym pytaniu powinien wyświetlić się przycisk "Zgłoś sugestię".</p>
+                        <p>Po kliknięciu w niego i zalogowaniu się do Twojego konta na github.com Twoim oczom powinien ukazać się wypełniony już pewnymi szczegółami formularz zgłoszeniowy. Użyj go do opisania Twojej uwagi lub sugestii.</p>
+                        <figure class="image is-16by9">
+                            <img src="assets/img/githubissue.png" alt="github issue screenshot">
+                        </figure>
+                        <h2>Forkując to repozytorium i zgłaszając nam pullrequesta ze zmianami</h2>
+                        <p>Jest to opcja dla osób bardziej zaawansowanych (a przynajmniej wiedzących, co oznaczają słowa w powyższym tytule).</p>
+                        <p>W folderach kat_a i kat_c znajdują się pliki csv z pytaniami. Można je edytować w dowolnym edytorze tekstowym, edytorze specjalnie przeznaczonym do edycji plików CSV, czy po prostu w excelu.</p>
+                        <figure class="image is-16by9">
+                            <img src="assets/img/csv.png" alt="csv libre office screenshot">
+                        </figure>
+                        <h2>Pisząc maila</h2>
+                        <p>Konstruktywne i merytoryczne uwagi można też zgłaszac mailem na <a href="mailto:radio@hackerspace-krk.pl">radio@hackerspace-krk.pl</a> </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END ARTICLE -->
+        </div>
+
     </section>
+</div>
 
-
-
-    <script>
-        function generateQuestions(data) {
-
-            for (var i = 0; i < data[0].length; i++) {
-
-                let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
-
-                let issue = `        
-            Aktualna treść pytania: ${data[0][i].pytanie}
-            Odpowiedzi: ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}, 
-
-            ---
-
-            Treść uwagi: 
-
-        `
-
-                let entry = '<h4>' + data[0][i].pytanie + '</h4><div class="media"><div class="media-content"><div class="content">';
-                if (data[0][i].ilustracja != '') {
-                    entry += '<p class="image"><img src="ilustracje/' + data[0][i]
-                        .ilustracja + '"></p>'
-                }
-                entry += '<ol type="a"><li>' + data[0][i].odpa +
-                    '</li><li>' + data[0][i].odpb + '</li><li>' + data[0][i].odpc + '</li></ol>'
-                entry +=
-                    '<a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' +
-                    encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +
-                    '">Zgłoś sugestię przez githuba</a><hr></div></div></div>'
-
-                d3.select("#questions").insert("article").attr("class", "post").html(entry);
-
-            };
-
-        }
-
-        Promise.all([
-            d3.csv("pytania.csv"),
-        ]).then(function (data) {
-            generateQuestions(data)
+        <script async type="text/javascript" src="assets/js/bulma.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        //The first argument are the elements to which the plugin shall be initialized
+        //The second argument has to be at least a empty object or a object with your desired options
+        OverlayScrollbars(document.querySelectorAll("body"), { });
         });
-    </script>
-
-</body>
+        </script></body>
 
 </html>
