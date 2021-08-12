@@ -4,15 +4,15 @@ function generateQuestions(data) {
 
         let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
 
-        let issue = `        
-            Aktualna treść pytania: ${data[0][i].pytanie}
-            Odpowiedzi: ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}, 
+        let issue = `
+**Aktualna treść pytania:** ${data[0][i].pytanie}
+**Odpowiedzi:** ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}
 
-            ---
+---
 
-            Treść uwagi: 
+Treść uwagi: 
 
-        `
+`
 
         let entry = '<h4>' + data[0][i].pytanie + '</h4><div class="media"><div class="media-content"><div class="content">';
         if (data[0][i].ilustracja != '') {
