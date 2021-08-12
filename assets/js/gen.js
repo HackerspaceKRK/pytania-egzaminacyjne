@@ -15,7 +15,7 @@ Treść uwagi:
 
 `
 
-        let entry = '<h4>' + data[0][i].pytanie + '</h4><div class="media"><div class="media-content"><div class="content">';
+        let entry = '<h4>' + data[0][i].id + ". " + data[0][i].pytanie + '</h4><div class="media"><div class="media-content"><div class="content">';
         if (data[0][i].ilustracja != '') {
             entry += '<p class="image"><img class="ilustration" src="../ilustracje/' + data[0][i]
                 .ilustracja + '"></p>'
