@@ -1,11 +1,14 @@
-function generateQuestions(data) {
+function generateQuestions(data, category, module) {
 
     for (var i = 0; i < data[0].length; i++) {
 
         let title = `Sugestia dotycząca pytania nr ${data[0][i].id}`
 
         let issue = `
+_Kategoria ${category}, ${module}_
+
 **Aktualna treść pytania:** ${data[0][i].pytanie}
+
 **Odpowiedzi:** ${data[0][i].odpa}, ${data[0][i].odpb}, ${data[0][i].odpc}
 
 ---
