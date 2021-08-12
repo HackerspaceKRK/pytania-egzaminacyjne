@@ -1,4 +1,4 @@
-Konstruktywne i merytoryczne uwagi można zgłaszacć poprzez ithubowe issues, pull request lub ewentualnie mailem na radio@hackerspace-krk.pl.
+Konstruktywne i merytoryczne uwagi można zgłaszacć poprzez githubowe issues, pull request lub ewentualnie mailem na radio@hackerspace-krk.pl.
 
 # Autorzy opracowana na kanwie istniejącej bazy pytań:
 Szymon Reiter - SQ9ZAQ
