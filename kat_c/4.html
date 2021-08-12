@@ -99,6 +99,12 @@
         d3.csv("dzial4c.csv"),
     ]).then(function (data) {
         generateQuestions(data, "C", "4")
+    }).then(function(){
+        if(window.location.hash) {
+
+            var anchor = document.querySelector(window.location.hash);
+            anchor.scrollIntoView({behavior: 'smooth', block: 'center'});
+        }
     });
 </script>
 
