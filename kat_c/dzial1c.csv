@@ -60,7 +60,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 59,"Czy prędkość fali elektromagnetycznej zależy od ośrodka, w którym się rozchodzi?",,"tak","nie zależy","zależy jedynie od temperatury ośrodka"
 60,"Długość fali rozchodzącej się w powietrzu wynosi 1500 metrów. Jaka jest częstotliwość tej fali?",,"2 MHz","200 kHz","233 kHz"
 61,"Jaki zakres częstotliwości dźwięków wystarcza dla zrozumiałego nadawania mowy?",,"od 300 Hz do 3 kHz","od 100 Hz do 5 kHz","od 20 Hz do 15 kHz"
-62,"Modulacja telegraficzna CW polega na:",,"przerywaniu fali nośnej","zmianie jej częstotliwości","zmianie jej amplitudy"
+62,"Modulacja telegraficzna CW polega na:",,"przerywaniu fali nośnej","zmianie jej częstotliwości","zmianie jej fazy"
 63,"Emisja CW jest emisją:",,"wąskopasmową","szerokopasmową","z modulacją fazy"
 64,"Powszechnie używana szerokość kanału FM w paśmie 2 m to:",,"12,5 kHz","50 kHz","200 kHz"
 65,"Powszechnie używana szerokość kanału przy emisji SSB to:",,"9 kHz","2,7 kHz","1,5 kHz"
