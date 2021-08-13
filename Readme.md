@@ -1,3 +1,5 @@
+# Pytania Egzaminacyjne #
+
 W lipcu bieżącego roku z inicjatywy Jurka HF1D, do Urzędu Komunikacji Elektronicznej została przekazana propozycja nowej bazy pytań egzaminacyjnych stworzonych na kanwie bazy pytań do tej pory używanych. 
 
 W przypadku pytań na kategorię A:
