@@ -27,7 +27,7 @@ Treść uwagi:
         entry +=
             '<a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' +
             encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +
-            '">Zgłoś sugestię</a> <a class="button is-light" href="#pytanie-'+ questionData.id + '">Link do pytania</a><hr></div></div></div>'
+            '">Zgłoś sugestię</a> <a class="button" href="#pytanie-'+ questionData.id + '">Link do pytania</a><hr></div></div></div>'
 
         d3.select("#questions").insert("article").attr("class", "post").html(entry);
 
