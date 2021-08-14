@@ -85,7 +85,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 84,"Przekładnia transformatora wynosi 20 do 1. Strona pierwotna włączona jest na napięcie sieci 240 V. Jakie napięcie będzie po stronie wtórnej?",,"24 V","12 V","20 V"
 85,"Diody prostownicze są stosowane do:",,"do eliminacji tętnień zasilacza","do prostowania prądu w zasilaczach","do stabilizacji napięć"
 86,"Diody Zenera to diody:",,"służące do stabilizacji napięć","świecące","na bardzo wysokie częstotliwości"
-87,"Warikap to dioda:",,"dioda mikrofalowa","dioda pojemnościowa","dioda stabilizacyjna"
+87,"Warikap to:",,"dioda mikrofalowa","dioda pojemnościowa","dioda stabilizacyjna"
 88,"Lampa elektronowa pentoda posiada:",,"pięć elektrod","cztery elektrody","trzy elektrody"
 89,"Cztery oporniki o wartościach 5 Ω zostały połączone szeregowo. Ile wynosi oporność zastępcza?",,"10 Ω","20 Ω","40 Ω"
 90,"Ile oporników o wartości 200 Ω należy połączyć równolegle by uzyskać sztuczne obciążenie antenowe 50 Ω?",,"5 szt.","2 szt.","4 szt."
