@@ -46,7 +46,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 45,"W tranzystorach polowych prąd drenu sterowany jest przez",,"prąd bazy","napięcie pomiędzy bramką, a źródłem","pojemność złączową"
 46,"Szeregowy obwód rezonansowy LC połączony w szereg z obciążeniem stanowi:",,"filtr pasmowoprzepustowy","filtr pasmowozaporowy","filtr IIR"
 47,"Który z czynników ma największy wpływ na szerokość pasma filtra zbudowanego z rezonatorów kwarcowych?",,"częstotliwości poszczególnych rezonatorów","stabilność temperaturowa","wartość napięcia wejściowego "
-48,"Jeśli zasilacz impulsowy powoduje zakłócenia na częstotliwości 14,250 MHz to która z poniższych metod redukcji zakłóceń nie będzie skuteczna?",,"poprawne uziemienie zasilacza","delikatna zmiana częstotliwości kluczowania","ustawienie pod innym kątem do odbiornika"
+48,"Jeśli zasilacz impulsowy powoduje zakłócenia na częstotliwości 14,250 MHz to która z poniższych metod redukcji zakłóceń nie będzie skuteczna?",,"poprawne uziemienie zasilacza","delikatna zmiana częstotliwości kluczowania przetwornicy zasilacza","ustawienie pod innym kątem do odbiornika"
 49,"Element aktywny we wzmacniaczu przewodzi przez cały okres wzmacnianego sygnału. Wzmacniacz ten pracuje w klasie:",,"A","B","C"
 50,"W jakim celu używana jest automatyczna kontrola poziomu (ALC) we wzmacniaczu mocy RF?",,"aby zrównoważyć charakterystykę częstotliwościową nadajnika","aby zredukować promieniowanie harmonicznych","aby zmniejszyć zniekształcenia spowodowane nadmiernym wysterowaniem"
 51,"Efektem mieszania dwóch sygnałów o częstotliwościach: 5 MHz i 2 MHz jest:",,"sygnał o częstotliwości 3 MHz","sygnał o częstotliwości 7 MHz","dwa sygnały o częstotliwości 3 MHz i 7 MHz"
