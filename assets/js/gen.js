@@ -25,7 +25,7 @@ Treść uwagi:
         entry += '<ol type="a"><li>' + questionData.odpa +
             '</li><li>' + questionData.odpb + '</li><li>' + questionData.odpc + '</li></ol>'
         entry +=
-            '<a class="button is-primary is-light" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' +
+            '<a class="button is-primary is-light" target="_blank" href="https://github.com/HackerspaceKRK/pytania-egzaminacyjne/issues/new?title=' +
             encodeURIComponent(title) + '&body=' + encodeURIComponent(issue) +
             '">Zgłoś sugestię</a> <a class="button" href="#pytanie-'+ questionData.id + '">Link do pytania</a><hr></div></div></div>'
 
