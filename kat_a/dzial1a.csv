@@ -88,7 +88,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 87,"Warikap to dioda:",,"dioda mikrofalowa","dioda pojemnościowa","dioda stabilizacyjna"
 88,"Lampa elektronowa pentoda posiada:",,"pięć elektrod","cztery elektrody","trzy elektrody"
 89,"Cztery oporniki o wartościach 5 Ω zostały połączone szeregowo. Ile wynosi oporność zastępcza?",,"10 Ω","20 Ω","40 Ω"
-90,"Ile oporników o wartości 200 Ω należy połączyć równolegle by uzyskać sztuczne obciążenie antenowe 50 Ω?",,"5 szt.","2 szt.","4 szt."
+90,"Ile oporników bezindukcyjnych o wartości 200 Ω należy połączyć równolegle by uzyskać sztuczne obciążenie antenowe 50 Ω?",,"5 szt.","2 szt.","4 szt."
 91,"Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?","A_1_091.png","prostownik dwupołówkowy","prostownik jednopołówkowy","prostownik mostkowy dwupołówkowy"
 92,"Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?  ","A_1_092.png","prostownik dwupołówkowy","prostownik jednopołówkowy","prostownik mostkowy dwupołówkowy  "
 93,"Wzmacniacz wzmacnia sygnały w zakresie od 100Hz do 10 kHz. Wzmacniacz ten nazywamy wzmacniaczem:",,"niskiej częstotliwości","wzmacniaczem pośredniej częstotliwości","wzmacniaczem selektywnym"

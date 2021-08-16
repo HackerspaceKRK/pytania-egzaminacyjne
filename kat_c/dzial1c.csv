@@ -71,7 +71,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 70,"Diody Zenera to diody służące do:",,"stabilizacji napięć","świecące","na bardzo wysokie częstotliwości"
 71,"Lampa elektronowa pentoda posiada:",,"pięć elektrod","cztery elektrody","trzy elektrody"
 72,"Cztery oporniki o wartościach 5 Ω zostały połączone szeregowo. Ile wynosi oporność zastępcza?",,"10 Ω","20 Ω","40 Ω"
-73,"Ile oporników o wartości 200 Ω należy połączyć równolegle by uzyskać sztuczne obciążenie antenowe 50 Ω?",,"5 szt.","2 szt.","4 szt."
+73,"Ile oporników bezindukcyjnych o wartości 200 Ω należy połączyć równolegle by uzyskać sztuczne obciążenie antenowe 50 Ω?",,"5 szt.","2 szt.","4 szt."
 74,"Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?","C_1_74.png","prostownik dwupołówkowy","prostownik jednopołówkowy","prostownik mostkowy dwupołówkowy"
 75,"Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?  ","C_1_75.png","prostownik dwupołówkowy","prostownik jednopołówkowy","prostownik mostkowy dwupołówkowy  "
 76,"Wzmacniacz wzmacnia sygnały w zakresie od 100Hz do 10 kHz. Wzmacniacz ten nazywamy wzmacniaczem:",,"niskiej częstotliwości","wzmacniaczem pośredniej częstotliwości","wzmacniaczem selektywnym"
