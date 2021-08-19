@@ -124,7 +124,6 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 123,"124. Dwa oporniki 1 kΩ połączone są w szereg i dołączone do napięcia 200 V. Jaki jest spadek napięcia na każdym z tych oporników?",,"50 V","100 V","200 V"
 124,"Obwód rezonansowy równoległy LC, w punkcie rezonansu przedstawia impedancję:",,"rzeczywistą omową","reaktancję pojemnościową","reaktancję indukcyjną"
 125,"Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?","C_1_125.png","prostownik dwupołówkowy","prostownik jednopołówkowy","prostownik mostkowy dwupołówkowy"
-126,"Na wyjściu transformatora sieciowego jest napięcie skuteczne = 350 V. Czy w prostowniku jednopołówkowym można użyć diody wytrzymującej wstecznie 400 V?",,"tak","nie","tak, ale z opornikiem w szereg"
 127,"Napięcie na wyjściu zasilacza nieobciążonego z filtrem pojemnościowym, wynosi 25 V. Jakie jest napięcie Usk transformatora zasilającego diody?",,"25 V","17,7 V","20 V"
 128,"Wzmacniacz posiada wzmocnienie napięciowe 10 razy. Wyraź to wzmocnienie w decybelach (dB)",,"10 dB","20 dB","40 dB"
 129,"W tranzystorowym wzmacniaczu mocy który element jest niezbędny aby nie generować zakłóceń harmonicznych?",,"filtr dolnoprzepustowy","przełącznik nadawanie-odbiór","układ dopasowania bazy tranzystora"
