@@ -161,7 +161,6 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 160,"Mamy obwód rezonansowy o częstotliwości 3,5 MHz. W jego skład wchodzi pojemność C = 400 pF. Jaką pojemność należy dołączyć zamiast C, by przestroić obwód na 7 MHz?",,"200 pF","100 pF","57 pF"
 161,"Obwód rezonansowy na częstotliwość 14 MHz ma dobroć Q=100. Jaka jest szerokość pasma tego obwodu rezonansowego?",,"280 kHz","14 kHz","140 kHz"
 162,"Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?","A_1_162.png","prostownik dwupołówkowy","prostownik jednopołówkowy","prostownik mostkowy dwupołówkowy"
-163,"Na wyjściu transformatora sieciowego jest napięcie skuteczne = 350 V. Czy w prostowniku jednopołówkowym można użyć diody wytrzymującej wstecznie 400 V?",,"tak","nie","tak, ale z opornikiem w szereg"
 164,"Napięcie na wyjściu zasilacza nieobciążonego z filtrem pojemnościowym, wynosi 25 V. Jakie jest napięcie Usk transformatora zasilającego diody?",,"25 V","17,7 V","20 V"
 165,"Wzmacniacz posiada wzmocnienie napięciowe 10 razy. Wyraź to wzmocnienie w decybelach (dB)",,"10 dB","20 dB","40 dB"
 166,"Wzmacniacz wysokiej częstotliwości obciążony obwodem rezonansowym jest:",,"wzmacniaczem selektywnym","wzmacniaczem szerokopasmowym","wzmacniaczem akustycznym"
