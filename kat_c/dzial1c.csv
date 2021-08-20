@@ -9,7 +9,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 9,"Który przewód o tej samej długości i przekroju będzie miał największą rezystancję?",,"wykonany z aluminium","wykonany z żelaza","wykonany z miedzi"
 10,"W obwodzie prądu stałego przez rezystor 1 kΩ płynie prąd 2 mA. Jaki jest spadek napięcia na rezystorze?",,"200 V","2000 V","2 V"
 11,"Do zasilacza o napięciu 12 V chcemy podłączyć diodę świecącą o napięciu przewodzenia 3 V i nominalnym prądzie 20 mA. Jaki rezystor należy włączyć w szereg, by ograniczyć prąd?",,"600 Ω","150 Ω","450 Ω"
-12,"Wartość skuteczna napięcia sieciowego wynosi 230 V, ile wynosi jego amplituda?",,"230 V","324 V","220 V"
+12,"Wartość skuteczna napięcia sieciowego wynosi 230 V, ile wynosi jego amplituda?",,"230 V","325 V","220 V"
 15,"Panel fotowoltaiczny oddaje moc 24W i ładuje akumulator prądem 2A. Zakładając stuprocentową sprawność układu ładowania, jakie jest napięcie na akumulatorze?",,"napięcie wynosi 24 V","napięcie wynosi 12 V","napięcie wynosi 48 V"
 16,"Rezystor ma wartość 200 Ω. Płynie przez niego prąd 300 mA. Jaka moc wydziela się na rezystorze?",,"18 W","1800 W","1,8 W"
 17,"Które z poniższych stwierdzeń opisuje modulację amplitudy (A3E)?",,"posiada obie wstęgi boczne","nie posiada wstęg bocznych","jest odporna na przemodulowanie"

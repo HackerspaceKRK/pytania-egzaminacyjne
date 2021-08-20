@@ -14,7 +14,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 13,"W obwodzie prądu stałego przez rezystor 1 kΩ płynie prąd 2 mA. Jaki jest spadek napięcia na rezystorze?",,"200 V","2000 V","2 V"
 14,"Do zasilacza o napięciu 12 V chcemy podłączyć diodę świecącą o napięciu przewodzenia 3 V i nominalnym prądzie 20 mA. Jaki rezystor należy włączyć w szereg, by ograniczyć prąd?",,"600 Ω","150 Ω","450 Ω"
 15,"Która z cech łączy szeregowy obwód rezonansowy LC z typową anteną (dipol półfalowy):",,"w rezonansie stanowią tylko rezystancję","w rezonansie stanowią reaktancję pojemnościową","w rezonansie stanowią reaktancję indukcyjną"
-16,"Wartość skuteczna napięcia sieciowego wynosi 230 V, ile wynosi jego amplituda?",,"230 V","324 V","220 V"
+16,"Wartość skuteczna napięcia sieciowego wynosi 230 V, ile wynosi jego amplituda?",,"230 V","325 V","220 V"
 17,"Jaka jest zależność fazowa między przepływającym prądem a napięciem w szeregowym obwodzie rezonansowym w rezonansie?",,"napięcie wyprzedza prąd o 90 stopni","prąd wyprzedza napięcie o 90 stopni","napięcie i prąd są zgodne w fazie"
 18,"Działanie funkcji ""Noise Blanker"" polega na: ",,"zwiększeniu pasma odbiornika","zmniejszeniu wzmocnienia odbiornika podczas okresowych impulsów zakłóceń ","przekierowaniu zakłóceń do kondensatora filtrującego"
 19,"Modulacja CW nazywana jest modulacją wąskopasmową, czy zatem jest możliwe dowolne zawężanie filtra wejściowego odbiornika celem odcięcia bocznych sygnałów niepożądanych?",,"można zawężać dowolnie","nie można, poniżej pewnej wartości szerokości filtra sygnał staje się nieczytelny","można zawężać ale tylko o parzyste liczby herców"
