@@ -132,7 +132,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 131,"Akumulator ma napięcie 6,5 V. Do akumulatora chcemy podłączyć żarówkę 3,5 V 0,3 A. Jaki opornik należy włączyć w szereg by ograniczyć prąd?",,"opornik 3,5 Ω","opornik 100 Ω","opornik 10 Ω"
 132,"Opornik ma 200 Ω. Płynie przez niego prąd 300 mA. Jaka jest moc tracona w oporze?",,"18 W","1800 W","1,8 W"
 133,"Jakie napięcie występuje na oporze 50 Ω przy dostarczeniu do niego mocy 200 W?",,"100 V","200 V","50 V"
-134,"Mamy opornik 100 Ω dołączony do napięcia 3 V. Z jakiej grupy mocy wybierzemy opornik?",,"grupa 1 W","grupa 0,125 W","grupa 0,5 W"
+134,"Dobierz optymalnie moc nominalną (znamionową) rezystora 100 Ω w przypadku w którym płynący przez niego prąd wywołuje na nim spadek napięcia 3V.",,"1 W","0,125 W","0,5 W"
 135,"Jaka jest częstotliwość prądu zmiennego, którego okres wynosi 0,02 s?",,"100 Hz","50 Hz","60 Hz"
 136,"Wartość amplitudy napięcia sinusoidalnego wynosi 200 V. Jaka jest wartość skuteczna napięcia?",,"200 V","400 V","141,4 V"
 137,"Napięcie międzyszczytowe sinusoidalnego prądu zmiennego wynosi 678 V. Ile wynosi wartość skuteczna tego napięcia?",,"340 V","240 V","680 V"
