@@ -158,7 +158,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 180,"Która klasa pracy wzmacniacza wprowadza najmniejsze zniekształcenia?",,"klasa AB","klasa A","klasa C"
 183,"Szum fazowy jest wynikiem:",,"kluczowania fazy (PSK)","krótkich i niewielkich odchyleń częstotliwości generatora","mieszania się sygnałów o różnych fazach"
 184,"Jako dzielnik częstotliwości w pętli synchronizacji fazy można użyć:",,"licznik","wzmacniacz operacyjny","dzielnik rezystorowy"
-185,"W transceiverach SDR do przetwornika A/C doprowadza się sygnały kwadraturowe (oznaczone jako I oraz Q). Jaki jest tego cel?",,"Łatwa realizacja modulacji programowej dla dowolnej emisji","Minimalizacja zniekształceń sygnału","Możliwość demodulacji sygnałów z dwóch różnych źródeł"
+185,"W transceiverach SDR do przetwornika A/C doprowadza się sygnały kwadraturowe (oznaczone jako I oraz Q). Jaki jest tego cel?",,"Łatwa realizacja progamowej demodulacji dla dowolnej emisji","Minimalizacja zniekształceń sygnału","Możliwość demodulacji sygnałów z dwóch różnych źródeł"
 186,"Bezpośrednia synteza cyfrowa (DDS) generuje przebieg przez:",,"użycie przetwornika cyfrowo-analogowego","cyfrowe przestrajanie obwodu rezonansowego","cyfrowe sterowanie układem NE555"
 187,"Dewiacja sygnału FM opisuje:",,"maksymalny odchył od częstotliwości nośnej","szerokość pasma sygnału","maksymalne różnice amplitudy sygnału"
 188,"Zbyt szybkie narastanie i opadanie sygnału telegraficznego powoduje:",,"zakłócenia określane jako ""kliki""","zwiększenie mocy wyjściowej nadajnika,","zmniejszenie pasma używanego w tej emisji."

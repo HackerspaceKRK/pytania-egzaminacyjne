@@ -271,7 +271,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 272,"Jaki jest cel włączenia szeregowo rezystora i kondensatora pomiędzy wejście i wyjście wzmacniacza mocy z tranzystorem w układzie wspólnego źródła?",,"zwiększenie wzmocnienia wzmacniacza.","utworzenie obwodu rezonansowego, który działa jako filtr pasmowy.","zwiększenie stabilności wzmacniacza."
 273,"Szum fazowy jest wynikiem:",,"kluczowania fazy (PSK)","krótkich i niewielkich odchyleń częstotliwości generatora","mieszania się sygnałów o różnych fazach"
 274,"Jako dzielnik częstotliwości w pętli synchronizacji fazy można użyć:",,"licznik","wzmacniacz operacyjny","dzielnik rezystorowy"
-275,"W transceiverach SDR do przetwornika A/C doprowadza się sygnały kwadraturowe (oznaczone jako I oraz Q). Jaki jest tego cel?",,"Łatwa realizacja modulacji programowej dla dowolnej emisji","Minimalizacja zniekształceń sygnału","Możliwość demodulacji sygnałów z dwóch różnych źródeł"
+275,"W transceiverach SDR do przetwornika A/C doprowadza się sygnały kwadraturowe (oznaczone jako I oraz Q). Jaki jest tego cel?",,"Łatwa realizacja progamowej demodulacji dla dowolnej emisji","Minimalizacja zniekształceń sygnału","Możliwość demodulacji sygnałów z dwóch różnych źródeł"
 276,"Bezpośrednia synteza cyfrowa (DDS) generuje przebieg przez:",,"użycie przetwornika cyfrowo-analogowego","cyfrowe przestrajanie obwodu rezonansowego","cyfrowe sterowanie układem NE555"
 277,"Odbiornik homodynowy od superheteredynowego odróżnia:",,"brak częstotliwości pośredniej (jest równa 0)","brak generatora","brak demodulatora"
 278,"Dewiacja sygnału FM opisuje:",,"maksymalny odchył od częstotliwości nośnej","szerokość pasma sygnału","maksymalne różnice amplitudy sygnału"
