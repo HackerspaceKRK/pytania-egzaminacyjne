@@ -84,7 +84,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 93,"Dalekie rozchodzenie się fal UKF podczas inwersji temperaturowej zawdzięczamy:",,"wielokrotnemu odbijaniu się fal od ciepłej ziemi","odbijaniu się fal radiowych od podstawy chmur wysokich","prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza"
 94,"Skrót EME oznacza łączności:",,"z wykorzystaniem odbicia sygnału od Księżyca","wykorzystaniem do łączności siły elektromotorycznej SEM","za pomocą elektromagnetycznej emisji EME na UKF"
 95,"Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika?",,"poprzez pomiar napięcia za pomocą sondy w.cz. na oporze sztucznej anteny 50 om i obliczenie","poprzez pomiar prądu i napięcia stałego doprowadzonego do stopnia mocy (PA)","poprzez uzyskanie raportu od korespondenta"
-96,"Jakim przyrządem mierzymy dopasowanie anteny do nadajnika?",,"żarówką włączoną w szereg na maksimum świecenia","sprawdzeniem czy kabel się nie grzeje","za pomocą reflektometru"
+96,"Jakim przyrządem mierzymy dopasowanie anteny do nadajnika?",,"miernikiem zniekształceń nieliniowych","sprawdzeniem czy kabel się nie grzeje","za pomocą reflektometru"
 98,"Jeżeli nadajnik promieniuje energię w.cz. poprzez sieć zasilającą to stosujemy:",,"filtr w.cz. na wyjściu antenowym nadajnika","dławnicę kablową","uziemiamy obudowę i włączamy filtr sieciowy w zasilanie"
 99,"Jaka instytucja zajmuje się lokalizowaniem zakłóceń radiowych i radioelektrycznych oraz badaniem sprzętu radionadawczego?",,"Urząd Komunikacji Elektronicznej","Ministerstwo Ochrony Środowiska","sztaby antykryzysowe"
 100,"W obwodzie prądu stałego przez opornik 1000 Ω płynie prąd 2 mA. Jaki jest spadek napięcia na oporze?",,"spadek wynosi 500 V","spadek wynosi 2000 V","spadek wynosi 2 V"
