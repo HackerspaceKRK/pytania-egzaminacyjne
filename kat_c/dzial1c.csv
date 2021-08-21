@@ -22,7 +22,7 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 25,"Moc PEP jest: ",,"mocą średnią","mocą w szczytach modulacji","mocą maksymalną tranzystora, po przekroczeniu której ulega uszkodzeniu"
 26,"Sygnał silniejszy o 3 dB to: ",,"sygnał o trzykrotnie większej mocy","sygnał o dziesięciokrotnie większej mocy","sygnał o dwukrotnie większej mocy"
 27,"Na skali S-metru jedna jednostka odpowiada wzrostowi odbieranego sygnału o 6 dB. Aby sygnał odbierany przez naszego korespondenta wzrósł z S7 do S9, moc nadajnika należy zwiększyć:",,"ośmiokrotnie","czterokrotnie","szesnastokrotnie"
-30,"Jaki kształt przyjmuje pole magnetyczne wytworzone przez przewodnik z prądem?",,"jest równolegle do osi przewodu","przewodnik z prądem wytwarza tylko pole elektryczne.","tworzy okręgi wokół przewodu"
+30,"Jak przebiegają linie pola magnetycznego wytworzonego przez przewodnik z prądem?",,"są równolegle do osi przewodu","przewodnik z prądem wytwarza tylko pole elektryczne","są równoległe do poweirzchni przewodnika i prostopadłe do jego osi"
 31,"Niedopasowanie anteny do linii transmisyjnej powoduje powstanie fali stojącej i w konsekwencji:",,"odbicia sygnału od miejsca niedopasowania i straty w linii transmisyjnej","może spowodować spalenie anteny","drgania fidera"
 32,"Nadajnik o mocy wyjściowej 100 W pobiera z zasilacza 280 W. Jego sprawność wynosi około:",,"36%","64%","280%"
 33,"Rozdzielczość bitowa przetwornika ADC wpływa na: ",,"zakres dynamiki","szybkość próbkowania","pasmo przenoszenia"
