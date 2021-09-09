@@ -10,7 +10,6 @@ id,pytanie,ilustracja,odpa,odpb,odpc
 9,"Jakie niebezpieczeństwo grozi, gdy trzymamy w rękach naładowany kondensator elektrolityczny?",,"porażenie prądem elektrycznym","nie ma żadnego niebezpieczeństwa","implozja kondensatora"
 10,"Czy zwarcie drutem biegunów akumulatora o napięciu 12V może być niebezpieczne?",,"nie ma żadnego zagrożenia","tak, może spowodować pożar lub poparzenie","tak, może spowodować porażenie prądem"
 11,"Czy kondensator elektrolityczny musi mieć napięcie pracy równe lub większe niż napięcie występujące w układzie w jakim pracuje?",,"napięcie pracy kondensatora nie ma znaczenia","musi, ale tylko w przypadku, gdy są to napięcia stałe","koniecznie, gdyż może ulec zniszczeniu"
-12,"Czy brak filtru przeciwzakłóceniowego na obwodzie zasilania sieciowego może być przyczyną zakłóceń w pracy urządzenia?",,"tak, ale tylko przy dużej mocy","zawsze, bez względu na moc","to nie ma znaczenia, rolę filtru pełni transformator zasilacza"
 13,"Czym grozi dotknięcie uszkodzonego fidera zasilającego antenę na pasmo 2 m mocą 100 W?",,"poparzeniem","skurczami mięśni od porażenia prądem","uszkodzeniem nadajnika"
 14,"Czy sztuczne obciążenie w postaci rezystora bezindukcyjnego powinno być ekranowane?",,"tak","tak, ale tylko w przypadku użycia dużych mocy","nie"
 15,"Dlaczego nie należy od razu uruchamiać urządzenia po przeniesieniu z zimnego pomieszczenia do ciepłego?",,"nie ma przeciwwskazań","ze względu na możliwość wystąpienia kondensacji pary wodnej","ze względu na możliwość wystąpienia napięcia na kondensatorach"
